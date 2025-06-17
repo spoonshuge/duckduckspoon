@@ -1,0 +1,17 @@
+{
+  "name": "duck-hunt-js",
+  "version": "1.0.0",
+  "description": "Duck Hunt game remake in JavaScript",
+  "main": "js/main.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  }
+}

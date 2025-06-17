@@ -9,9 +9,17 @@
 <body>
     <div id="game-container">
         <canvas id="game-canvas" width="800" height="600"></canvas>
+        <div id="timer-display">10</div>
+        <div id="game-over-screen" style="display: none;">
+            <div id="game-over-content">
+                <h2>Game Over!</h2>
+                <p id="final-score">You reached Round: <span id="final-round-num">0</span></p>
+                <button id="restart-btn">Play Again</button>
+            </div>
+        </div>
         <div id="ui-overlay">
-            <div id="score">Score: 0</div>
-            <div id="ammo">Ammo: 10</div>
+            <div id="round">Round: 1</div>
+            <div id="circles-left">Circles: 1</div>
         </div>
     </div>
     <script src="js/main.js"></script>

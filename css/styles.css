@@ -90,3 +90,34 @@ body {
 #restart-btn:hover {
     background: #45a049;
 }
+
+/* ADD to styles.css: */
+
+@media (max-width: 768px) {
+    #game-canvas {
+        width: 100vw;
+        height: 60vh;
+        max-width: 100%;
+    }
+    
+    #game-container {
+        width: 100vw;
+        height: 60vh;
+        border: none;
+    }
+    
+    body {
+        padding: 10px;
+        height: 100vh;
+    }
+    
+    #timer-display {
+        font-size: 48px;
+    }
+    
+    #ui-overlay {
+        top: 5px;
+        right: 5px;
+        font-size: 14px;
+    }
+}
